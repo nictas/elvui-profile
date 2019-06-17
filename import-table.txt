@@ -1,0 +1,309 @@
+{
+    ["databars"] = {
+        ["reputation"] = {
+            ["enable"] = true,
+        },
+    },
+    ["currentTutorial"] = 9,
+    ["sle"] = {
+        ["Armory"] = {
+            ["Inspect"] = {
+                ["Enable"] = false,
+            },
+            ["Character"] = {
+                ["Enable"] = false,
+            },
+        },
+    },
+    ["movers"] = {
+        ["PetAB"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-85,-334",
+        ["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,489",
+        ["LeftChatMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,0,19",
+        ["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,261,-4",
+        ["BossButton"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-450,54",
+        ["ZoneAbility"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-450,120",
+        ["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,735",
+        ["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,272,330",
+        ["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,265",
+        ["MicrobarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
+        ["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,302,131",
+        ["LossControlMover"] = "TOP,ElvUIParent,TOP,0,-551",
+        ["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,489",
+        ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,205",
+        ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,168",
+        ["TalkingHeadFrameMover"] = "TOP,ElvUIParent,TOP,0,-25",
+        ["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,131",
+        ["ElvAB_5"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-45,-334",
+        ["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,275,168",
+        ["ArenaHeaderMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-154,372",
+        ["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,1490,234",
+        ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-190,-300",
+        ["RightChatMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,0,19",
+        ["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-35",
+        ["PlayerPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,245",
+        ["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-275,168",
+        ["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,330",
+        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,290",
+        ["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,965",
+        ["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-169,-375",
+        ["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-248,131",
+        ["ElvAB_4"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-5,-334",
+        ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+        ["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,0,4",
+        ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-187,-150",
+        ["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,900",
+    },
+    ["v11NamePlateReset"] = true,
+    ["hideTutorial"] = true,
+    ["chat"] = {
+        ["panelColor"] = {
+            ["b"] = 0.054,
+            ["g"] = 0.054,
+            ["r"] = 0.054,
+        },
+        ["panelColorConverted"] = true,
+        ["panelBackdrop"] = "LEFT",
+    },
+    ["unitframe"] = {
+        ["smoothbars"] = true,
+        ["colors"] = {
+            ["auraBarBuff"] = {
+                ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
+            },
+            ["classResources"] = {
+                ["MONK"] = {
+                    [1] = {
+                        ["r"] = 0,
+                        ["g"] = 0.85882352941176,
+                        ["b"] = 0.87058823529412,
+                    },
+                    [2] = {
+                        ["r"] = 0,
+                        ["g"] = 1,
+                        ["b"] = 0.69411764705882,
+                    },
+                    [3] = {
+                        ["r"] = 0,
+                        ["g"] = 1,
+                        ["b"] = 0.30980392156863,
+                    },
+                    [4] = {
+                        ["r"] = 0.64705882352941,
+                        ["g"] = 1,
+                        ["b"] = 0,
+                    },
+                    [5] = {
+                        ["r"] = 1,
+                        ["g"] = 0.92156862745098,
+                        ["b"] = 0,
+                    },
+                    [6] = {
+                        ["r"] = 1,
+                        ["g"] = 0.70196078431373,
+                        ["b"] = 0,
+                    },
+                },
+            },
+            ["power"] = {
+                ["ENERGY"] = {
+                    ["r"] = 0.8156862745098,
+                    ["g"] = 0.72941176470588,
+                    ["b"] = 0.074509803921569,
+                },
+            },
+            ["castColor"] = {
+                ["r"] = 0,
+                ["g"] = 0,
+                ["b"] = 0,
+            },
+            ["health"] = {
+                ["r"] = 0.1,
+                ["g"] = 0.1,
+                ["b"] = 0.1,
+            },
+        },
+        ["units"] = {
+            ["party"] = {
+                ["buffs"] = {
+                    ["sizeOverride"] = 22,
+                },
+            },
+            ["targettargettarget"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["player"] = {
+                ["power"] = {
+                    ["attachTextTo"] = "Power",
+                    ["position"] = "CENTER",
+                    ["detachedWidth"] = 360,
+                    ["height"] = 16,
+                    ["detachFromFrame"] = true,
+                },
+                ["classbar"] = {
+                    ["detachedWidth"] = 290,
+                    ["height"] = 25,
+                    ["detachFromFrame"] = true,
+                },
+                ["width"] = 184,
+                ["pvpIcon"] = {
+                    ["anchorPoint"] = "TOP",
+                    ["scale"] = 0.75,
+                },
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+                ["castbar"] = {
+                    ["width"] = 290,
+                },
+                ["height"] = 73,
+            },
+            ["raid"] = {
+                ["debuffs"] = {
+                    ["sizeOverride"] = 16,
+                },
+                ["buffs"] = {
+                    ["sizeOverride"] = 22,
+                },
+            },
+            ["focustarget"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["targettarget"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["boss"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["focus"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["target"] = {
+                ["pvpIcon"] = {
+                    ["anchorPoint"] = "TOP",
+                    ["scale"] = 0.75,
+                },
+                ["castbar"] = {
+                    ["height"] = 30,
+                    ["width"] = 285,
+                },
+                ["width"] = 184,
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+                ["height"] = 73,
+            },
+            ["arena"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["pet"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+            ["pettarget"] = {
+                ["health"] = {
+                    ["frequentUpdates"] = true,
+                },
+            },
+        },
+    },
+    ["datatexts"] = {
+        ["font"] = "Univers",
+    },
+    ["actionbar"] = {
+        ["bar3"] = {
+            ["buttons"] = 10,
+            ["buttonsPerRow"] = 12,
+            ["buttonsize"] = 36,
+            ["buttonspacing"] = 0,
+        },
+        ["bar6"] = {
+            ["enabled"] = true,
+            ["point"] = "TOPRIGHT",
+            ["buttonspacing"] = 0,
+            ["backdropSpacing"] = 0,
+        },
+        ["microbar"] = {
+            ["enabled"] = true,
+        },
+        ["bar2"] = {
+            ["enabled"] = true,
+            ["visibility"] = "[petbattle] hide; show",
+            ["buttons"] = 10,
+            ["buttonspacing"] = 0,
+            ["buttonsPerRow"] = 10,
+            ["buttonsize"] = 36,
+        },
+        ["bar1"] = {
+            ["buttons"] = 10,
+            ["buttonsPerRow"] = 10,
+            ["buttonsize"] = 36,
+            ["buttonspacing"] = 0,
+        },
+        ["bar5"] = {
+            ["point"] = "TOPLEFT",
+            ["buttons"] = 12,
+            ["buttonsPerRow"] = 1,
+            ["backdrop"] = true,
+        },
+        ["bar4"] = {
+            ["point"] = "TOPLEFT",
+        },
+        ["macrotext"] = true,
+        ["backdropSpacingConverted"] = true,
+    },
+    ["layoutSet"] = "dpsMelee",
+    ["general"] = {
+        ["loginmessage"] = false,
+        ["bordercolor"] = {
+            ["r"] = 0,
+            ["g"] = 0,
+            ["b"] = 0,
+        },
+        ["valuecolor"] = {
+            ["r"] = 0.09,
+            ["g"] = 0.513,
+            ["b"] = 0.819,
+        },
+        ["backdropfadecolor"] = {
+            ["r"] = 0.054,
+            ["g"] = 0.054,
+            ["b"] = 0.054,
+        },
+        ["talkingHeadFrameScale"] = 1,
+        ["afk"] = false,
+        ["autoRepair"] = "PLAYER",
+        ["minimap"] = {
+            ["icons"] = {
+                ["classHall"] = {
+                    ["position"] = "BOTTOM",
+                },
+            },
+        },
+    },
+    ["nameplates"] = {
+        ["clampToScreen"] = true,
+        ["loadDistance"] = 100,
+    },
+    ["bags"] = {
+        ["countFontSize"] = 12,
+        ["countFont"] = "PT Sans Narrow",
+        ["vendorGrays"] = {
+            ["enable"] = true,
+        },
+    },
+}::profile::Nictas
