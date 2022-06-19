@@ -233,11 +233,13 @@
                 ["debuffs"] = {
                     ["anchorPoint"] = "BOTTOM",
                     ["growthX"] = "LEFT",
+                    ["numrows"] = 3,
                     ["perrow"] = 3,
                 },
                 ["growthDirection"] = "RIGHT_DOWN",
-                ["horizontalSpacing"] = 3,
+                ["horizontalSpacing"] = 4,
                 ["startFromCenter"] = true,
+                ["verticalSpacing"] = 4,
                 ["width"] = 158,
             },
             ["pet"] = {
