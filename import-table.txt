@@ -242,13 +242,18 @@
                 },
                 ["growthDirection"] = "RIGHT_DOWN",
                 ["health"] = {
-                    ["attachTextTo"] = "Frame",
-                    ["position"] = "TOP",
+                    ["position"] = "BOTTOM",
                     ["text_format"] = "[healthcolor][health:deficit:shortvalue]",
-                    ["yOffset"] = -2,
+                    ["xOffset"] = -2,
+                    ["yOffset"] = 2,
                 },
                 ["height"] = 44,
                 ["horizontalSpacing"] = 3,
+                ["power"] = {
+                    ["position"] = "BOTTOMRIGHT",
+                    ["text_format"] = "",
+                    ["yOffset"] = 2,
+                },
                 ["width"] = 80,
             },
             ["pet"] = {
@@ -286,6 +291,9 @@
                 },
                 ["debuffs"] = {
                     ["sizeOverride"] = 16,
+                },
+                ["health"] = {
+                    ["xOffset"] = -2,
                 },
                 ["visibility"] = "[@raid6,noexists][@raid21,exists] hide;show",
             },
