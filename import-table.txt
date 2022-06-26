@@ -298,6 +298,9 @@
                 ["visibility"] = "[@raid6,noexists][@raid21,exists] hide;show",
             },
             ["raid40"] = {
+                ["health"] = {
+                    ["text_format"] = "",
+                },
                 ["visibility"] = "[@raid21,noexists] hide;show",
             },
             ["tank"] = {
