@@ -227,9 +227,6 @@
                 ["enable"] = false,
             },
             ["party"] = {
-                ["buffIndicator"] = {
-                    ["enable"] = false,
-                },
                 ["buffs"] = {
                     ["sizeOverride"] = 22,
                 },
@@ -244,11 +241,14 @@
                 ["health"] = {
                     ["position"] = "BOTTOM",
                     ["text_format"] = "[healthcolor][health:deficit:shortvalue]",
-                    ["xOffset"] = -2,
                     ["yOffset"] = 2,
                 },
                 ["height"] = 44,
                 ["horizontalSpacing"] = 3,
+                ["name"] = {
+                    ["xOffset"] = 2,
+                    ["yOffset"] = 2,
+                },
                 ["power"] = {
                     ["position"] = "BOTTOMRIGHT",
                     ["text_format"] = "",
